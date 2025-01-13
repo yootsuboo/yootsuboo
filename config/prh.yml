@@ -1,0 +1,8 @@
+version: 1
+imports:
+  - path: ../node_modules/prh/prh-rules/media/WEB+DB_PRESS.yml
+    disableImports: true
+    ignoreRules:
+      - expected: 俺$1
+      - expected: すべて
+      - expected: $1あなた$2
